@@ -1,0 +1,27 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> 
+
+        </title>
+    </head>
+    <body> 
+        <h1> Welcome to glass classification</h1>
+       <h1> Enter the form data </h1>
+        <form action="{% url 'result' %}">
+                {% csrf_token %}            
+
+            RI: <Input type="text" required name="RI"><br><br>
+             Na: <Input type="text" required name="Na"><br><br>
+             Mg: <Input type="text" required name="Mg"><br><br>
+            Al: <Input type="text" required name="Al"><br><br>
+              Si: <Input type="text" required name="Si"><br><br>
+                K: <Input type="text" required name="K"><br><br>   
+             Ca: <Input type="text" required name="Ca"><br><br>
+              Ba: <Input type="text" required name="Ba"><br><br>
+             Fe: <Input type="text" required name="Fe"><br><br>
+                   
+        <input type="submit" name="" value="submit">
+        </form>
+    </body>
+</html>

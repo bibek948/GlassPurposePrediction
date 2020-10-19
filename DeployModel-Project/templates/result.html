@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> 
+
+        </title>
+    </head>
+    <body> 
+        <h1> The Results are here</h1>
+        <h2> The data you entered is: {{list}}</h2>
+        <h2>The Category of the Glass is {{ans}}</h2>
+        <pre> 
+            Type of glass: (class attribute)
+            --1 buildingwindowsfloatproceed
+            --2 buidlingwindowsnonfloatproceed
+            --3 vehiclewindowsfloatproceed
+            --4 vehiclewindowsnonfloatproceed
+            --5 containers
+            --6 tableware
+            --7 headlamps
+
+        </pre>
+        <a href="{% url 'home' %}">Click here to go home</a>
+    </body>
+</html>
